@@ -105,7 +105,7 @@ if uploaded_file is not None:
         image = Image.open(io.BytesIO(image_data)).convert("RGB")
         
         # Display image
-        st.image(image, caption='🖼️ Uploaded Image', use_container_width=True)
+        st.image(image, caption='🖼️ Uploaded Image', use_column_width=True)
 
         # Predict
         image_tensor = predict_waste.preprocess_image(image)
