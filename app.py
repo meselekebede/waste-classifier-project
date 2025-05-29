@@ -58,6 +58,7 @@ st.markdown('<div class="sub-header">Upload an image of waste, and our ResNet-34
 # Project Description
 with st.expander("ℹ️ About This App"):
     st.markdown("""
+This model is on ealy stage with the accuracy of 83% and can make unexpected errors, this just for fun, don't take it for real.
     This app uses a deep learning model based on **ResNet-34 architecture** trained on real-world waste images.
     
     It supports classification into the following categories:
