@@ -53,7 +53,7 @@ scikit-learn: Evaluation metrics (F1, Precision, Recall)
 ## 🚀 Local Setup
 Clone the repo
 
-git clone https://github.com/your-username/waste-classifier.git 
+git clone https://github.com/meselekebede/waste-classifier-project.git 
 
 
 cd waste-classifier
