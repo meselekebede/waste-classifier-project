@@ -45,19 +45,33 @@ TorchVision: Image transforms and models
 scikit-learn: Evaluation metrics (F1, Precision, Recall)
 
 🚀 Local Setup
-1. Clone the repo
+Clone the repo
+
+
 git clone https://github.com/your-username/waste-classifier.git 
+
+
 cd waste-classifier
-2. Install dependencies
+
+Install dependencies,
 Make sure you're using Python 3.9+
+
+
 pip install -r requirements.txt
-3. Train or Run the App
+
+
+Train or Run the App
+
+
 To train the model:
 python resnet_train.py
 
 To run the web app:
 streamlit run app.py
+
+
 📦 Requirements
+
 torch==1.13.1
 torchvision==0.14.1
 streamlit==1.24.0
@@ -78,17 +92,19 @@ Training Time: ~200 min
 This is an early-stage prototype and may misclassify some items.
 Designed for educational purposes and as a foundation for smart waste management systems.
 Easily extendable to support more classes like e-waste, biodegradable, etc.
-🤝 Contributing
+🤝 Contributing:
 Contributions are welcome! If you'd like to:
 
-Add new features (e.g., more classes)
-Improve accuracy with data augmentation
-Convert to mobile app or backend API
+Add new features (e.g., more classes),
+Improve accuracy with data augmentation,
+Convert to mobile app or backend API,
 Feel free to open an issue or submit a pull request.
 
 📬 Feedback & Questions
 If you have any questions or want help deploying this yourself, feel free to reach out or leave a comment!
 
 🏆 Credits
+
 Dataset: [TrashNet](https://github.com/garythung/trashnet)
+
 Frameworks: PyTorch, TorchVision, Streamlit
