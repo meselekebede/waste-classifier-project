@@ -23,7 +23,7 @@ def build_resnet_model(num_classes=len(CLASS_NAMES)):
     model.fc = torch.nn.Linear(model.fc.in_features, num_classes)
     return model
 
-def load_model(model_path='best_resnet_model_v2.pth'):
+def load_model(model_path='best_resnet_model.pth'):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = build_resnet_model()
     model.load_state_dict(torch.load(model_path, map_location=device))
